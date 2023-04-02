@@ -1,11 +1,14 @@
 import './App.css';
+import Search from './Components/Search';
+
 
 function App() {
+
   return (
     <div className="App">
-      <div>Code goes here!</div>
+      <Search/>
     </div>
   );
-}
+} 
 
 export default App;
