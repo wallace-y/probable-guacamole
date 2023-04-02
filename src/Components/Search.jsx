@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 
 function Search() {
     const [searchText, setSearchText] = useState('');
-    const foundItems = [];
+    // const foundItems = [];
 
     return (
         <div>
