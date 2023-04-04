@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import Person from './Person';
 import names from "./Userlist";
 
 function Search() {
@@ -14,14 +15,12 @@ function Search() {
                 placeholder="Search..." 
                 onChange={e => setSearchText(e.target.value)}></input>
                 
+            {foundNames.map((person) => <Person person={person}/>)}
 
-
-            
-            <p>Names: {foundNames}</p>
 
         </div>
-      );
 
-}
+
+      )};
 
 export default Search;
