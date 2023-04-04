@@ -121,4 +121,4 @@ const names = [
     "Steven Spielberg",
 ];  
 
-module.export = {names};
+module.exports = names;
